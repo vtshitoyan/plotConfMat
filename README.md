@@ -1,6 +1,6 @@
 # plotConfMat
 Plots a confusion matrix with colorscale, absolute numbers and precision normalized percentages. 
-This is an alternative to matlab's [plotconfusion](https://uk.mathworks.com/help/nnet/ref/plotconfusion.html) if you do not
+This is a basic alternative to matlab's [plotconfusion](https://uk.mathworks.com/help/nnet/ref/plotconfusion.html) if you do not
 have the Neural Network Toolbox.
 
 usage:
