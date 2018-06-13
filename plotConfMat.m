@@ -26,6 +26,11 @@ switch (nargin)
        labels = varargin{2};
 end
 
+% Convert string and categorical labels to cell array.
+if isstring(labels) || iscategorical(labels)
+    labels = cellstr(labels);
+end
+
 confmat(isnan(confmat))=0; % in case there are NaN elements
 numlabels = size(confmat, 1); % number of labels
 
